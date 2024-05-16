@@ -1,0 +1,498 @@
+# 征程（闯关）
+<desc>本课程以红军长征为背景，学生将扮演一名刚加入红军的小战士。通过一些编程指令，控制小战士完成长征途中遇到的各种挑战。<br/>
+
+搭建: ★★<br/>
+
+动画: ★<br/>
+
+编程: ★★
+</desc>
+<code>ppt_S1</code>
+
+## 征程（闯关）
+<img class="ppt_cover" src=""/>
+<notes display="teacher">
+  
+《征程》以红军长征为背景，基于长征路上13个重大战役设计课程，共16课时，它是一套沉浸式趣味编程课程包。课程内容基于编译学原理，主要强化学生数学和逻辑思维能力，与其他课程内容配合，达到文理兼修的效果。在《征程》中，学生将扮演一名刚加入红军的小战士。通过一些编程指令，控制小战士完成长征途中遇到的各种挑战。开启《征程》不仅可以体验那段峥嵘的长征岁月，还可以在身临其境地参与中学习编程知识，通过一条条命令，一行行代码，控制自己的角色完成长征路上的一个个目标。 
+</notes>
+
+## 第一课 征程
+<div class="left">
+    <step value="1">
+		作品探索《有了想法你怎么做》<br/>
+        <action type="explore" projectid="455"/>
+      
+         <action type="dailyVideoLink" href="https://keepwork.com/official/tips/sx1/chuangyi/changpinjieshao" value="“帕拉卡”介绍" /> 
+   <action type="dailyVideoLink" href="https://keepwork.com/official/tips/sx1/chuangyi/youlexiangfa" value=" 优秀作品展示" />
+ 
+    </step>
+
+</div>
+
+<div class="right">
+    <div class="mainwork">
+        <step value="2">
+            <action type="button" value="任务1：代码闯关" projectid="73139"/>
+            <div class="step_str">完成“征程”</div>
+        </step>
+        <step value="3">
+            <action type="loadworld" value="任务2：创造你的作品"/>
+            <div class="F1"> 
+                F1:“新手小屋”、<br/>
+                “让角色向前行走”
+            </div> 
+        </step>
+    </div>   
+</div>
+
+
+<notes display="teacher">
+### 备注与教案：
+在学生自由创作的过程中， 老师大屏幕可以放这页PPT。 
+
+第一课的作品探索环节比较特殊，包含了产品介绍，因此比后面的课会长一些。 所以如果课时小于90分钟， 建议老师取消任务1：的环节。 
+
+写给老师的话：
+第一课由于学生首次接触，可能会遇到软件更新，注册等问题，老师可能会比较辛苦。后面随着学生熟悉软件， 基本可以立即进入到自主学习状态，老师会越来越轻松。
+
+</notes>
+<notes display="students">
+### 知识点：
+- 必修：pioneer:moveForward()；pioneer:turnLeft()，pioneer:turnRight()；前进，转向或调头
+- 选修：通过相关视频，了解Paracraft的功能、欣赏优秀的作品、了解大赛相关讯息
+</notes>
+
+
+## 第二课 四渡赤水
+<div class="left">
+    <step value="1">
+        作品探索《卡卡的家》<br/>
+        <action type="explore" projectid="42670"/>
+        <action type="dailyVideo" id="6" />
+    </step>
+</div>
+
+<div class="right">
+    <div class="mainwork">
+        <step value="2">
+            <action type="button" value="任务1：代码闯关" projectid="73139"/>
+            <div class="step_str">完成“移动训练场”<br/>完成“四渡赤水”</div>
+        </step>
+        <step value="3">
+            <action type="loadworld" value="任务2：创造你的作品"/>
+
+        </step>
+    </div>   
+</div>
+
+
+<notes display="teacher">
+### 备注与教案：
+1.  探索（10分钟)：老师演示输入作品ID，请1-3位同学轮流上台体验，其他人在下面自己体验，下面的同学可以提示台上的同学。
+
+提问1：电影方块在哪里？（可选）
+提问2：电影方块能做什么？（可选）
+回答不出来，老师可以：下面我们来观看一个教学视频： 每日课堂：6. 电影方块
+
+提问3：如果激活电影方块？（可选）
+
+2. 征程（5分钟）：《移动训练场》、《四渡赤水》
+（请同学上台演示如何通关， 不会的同学可以看同学演示，会的允许做自由创造）
+
+3. 参赛作品自由创作（30分钟以上）
+
+4. 播放：准备下课的PPT
+
+</notes>
+<notes display="students">
+### 知识点：
+- 必修：基本语法、参数；moveForward()，turnLeft() ，turnRight()；建桥命令build("bridge")；pioneer:turnLeft()、pioneer:turnRight()
+- 选修：通过观看视频了解电影方块的知识，Ctrl+左键复制角色、Shift+左键删除角色
+</notes>
+
+
+
+## 第三课 巧渡金沙江
+<div class="left">
+    <step value="1">
+        作品探索《拉拉的家》<br/>
+        <action type="explore" projectid="42701"/>
+        <action type="dailyVideo" id="3" />
+    </step>
+</div>
+
+<div class="right">
+    <div class="mainwork">
+        <step value="2">
+            <action type="button" value="任务1：代码闯关" projectid="73139"/>
+            <div class="step_str">完成“巧渡金沙江”<br/>完成“建造训练场”</div>
+        </step>
+        <step value="3">
+            <action type="loadworld" value="任务2：创造你的作品"/>
+ 
+        </step>
+    </div>   
+</div>
+
+
+<notes display="teacher">
+### 备注与教案：
+1.  探索（10分钟)：老师演示输入作品ID，请1-3位同学轮流上台体验，其他人在下面自己体验，下面的同学可以提示台上的同学。
+
+提问1：如何批量选择？（可选）
+回答不出来，老师可以：下面我们来观看一个教学视频：  每日课堂：3. 关于选择
+
+2. 征程（5分钟）：《巧渡金沙江》、《建造训练场》
+（请同学上台演示如何通关， 不会的同学可以看同学演示，会的允许做自由创造）
+
+3. 参赛作品自由创作（30分钟以上）
+
+4. 播放：准备下课的PPT
+
+</notes>
+<notes display="students">
+### 知识点：
+- 必修：拆桥命令build("air")，建桥命令build(“bridge”)，pioneer:turnLeft()，pioneer:turnRight()基本语法，参数，moveForward()，turnLeft() ，turnRight()
+- 选修：选择方块的方法：Ctrl+左键、Ctrl+Shift+左键可以选中和底部相连的上方的所有方块、Alt+左键可以吸取方块
+</notes>
+
+
+
+## 第四课 强渡大渡河
+<div class="left">
+    <step value="1">
+        作品探索《帕帕的家》<br/>
+        <action type="explore" projectid="42457"/>
+        <action type="dailyVideo" id="134" />
+    </step>
+</div>
+
+<div class="right">
+    <div class="mainwork">
+        <step value="2">
+            <action type="button" value="任务1：代码闯关" projectid="73139"/>
+            <div class="step_str">完成“强渡大渡河”</div>
+
+        </step>
+        <step value="3">
+            <action type="loadworld" value="任务2：创造你的作品"/>
+
+        </step>
+     </div>   
+</div>
+
+
+<notes display="teacher">
+### 备注与教案：
+1.  探索（10分钟)：老师演示输入作品ID，请1-3位同学轮流上台体验，其他人在下面自己体验，下面的同学可以提示台上的同学。
+
+提问1：谁最先发现这个世界中的打字游戏在哪里？上台来演示下？（可选）
+回答不出来，老师可以：下面我们来观看一个教学视频：  每日课堂：134. 打字练习
+
+2. 征程（5分钟）：《强渡大渡河》
+（请同学上台演示如何通关， 不会的同学可以看同学演示，会的允许做自由创造）
+
+3. 参赛作品自由创作（30分钟以上）（30分钟以上）
+
+4. 播放：准备下课的PPT
+
+</notes>
+<notes display="students">
+### 知识点：
+- 必修：攻击命令attack()，pioneer:moveForward()
+- 选修：了解键盘按键，打字练习
+</notes>
+
+
+
+## 第五课 飞夺泸定桥
+<div class="left">
+    <step value="1">
+        作品探索《个人画展》<br/>
+        <action type="explore" projectid="75309"/>
+        <action type="dailyVideo" id="198" />
+    </step>
+</div>
+
+<div class="right">
+    <div class="mainwork">
+        <step value="2">
+            <action type="button" value="任务1：代码闯关" projectid="73139"/>
+            <div class="step_str">完成“飞夺泸定桥”</div>
+
+        </step>
+        <step value="3">
+            <action type="loadworld" value="任务2：创造你的作品"/>
+
+        </step>
+    </div>   
+</div>
+
+
+<notes display="teacher">
+### 备注与教案：
+1.  探索（10分钟)：老师演示输入作品ID，请1-3位同学轮流上台体验，其他人在下面自己体验，下面的同学可以提示台上的同学。
+
+提问1：墙上的画册是怎么放上去的？（可选）
+提问2：通往下一个画室的门是如何打开的？（可选）
+回答不出来，老师可以：下面我们来观看一个教学视频：  每日课堂：198. 密室解锁逻辑
+
+2. 征程（5分钟）：《飞夺泸定桥》
+（请同学上台演示如何通关， 不会的同学可以看同学演示，会的允许做自由创造）
+
+3. 参赛作品自由创作（30分钟以上）
+
+4. 播放：准备下课的PPT
+
+</notes>
+<notes display="students">
+### 知识点：
+- 必修：攻击命令attack()，pioneer:turnLeft(),pioneer:turnRight()
+- 选修：欣赏《个人画展》作品，学习/sendevent 命令
+</notes>
+
+
+## 第六课 爬雪山过草地
+<div class="left">
+    <step value="1">
+        作品探索《过山车Shine Your Way》<br/>
+        <action type="explore" projectid="93"/>
+        <action type="dailyVideo" id="10" />
+    </step>
+</div>
+
+<div class="right">
+    <div class="mainwork">
+        <step value="2">
+            <action type="button" value="任务1：代码闯关" projectid="73139"/>
+            <div class="step_str">完成“爬雪山”<br/>完成“过草地”</div>
+
+        </step>
+        <step value="3">
+            <action type="loadworld" value="任务2：创造你的作品"/>
+
+        </step>
+    </div>   
+</div>
+
+
+<notes display="teacher">
+### 备注与教案：
+1.  探索（10分钟)：老师演示输入作品ID，请1位同学上台体验，其他人在下面自己体验，下面的同学可以提示台上的同学。
+
+提问1：过山车的字幕是如何添加的？（可选）
+使用了探测铁轨和电影方块，大家可以回家研究下。
+老师可以：下面我们来观看一个教学视频：  每日课堂：10. 过山车的开头
+
+2. 征程（5分钟）：《爬雪山》、《过草地》
+（请同学上台演示如何通关， 不会的同学可以看同学演示，会的允许做自由创造）
+
+3. 参赛作品自由创作（30分钟以上）
+
+4. 播放：准备下课的PPT
+
+
+</notes>
+<notes display="students">
+### 知识点：
+- 必修：循环命令：while，pioneer:turnLeft()，pioneer:turnRight()；建桥命令build("bridge")，攻击命令attack()
+- 选修：如何登上矿车、动力铁轨的充能与启动；探测铁轨添加字幕与特效
+</notes>
+
+
+
+
+
+## 第七课 懋功会师
+<div class="left">
+    <step value="1">
+        作品探索《迷宫游戏》<br/>
+        <action type="explore" projectid="536"/>
+        <action type="dailyVideo" id="75" />
+    </step>
+</div>
+
+<div class="right">
+    <div class="mainwork">
+        <step value="2">
+            <action type="button" value="任务1：代码闯关" projectid="73139"/>
+            <div class="step_str">完成“懋功会师”</div>
+
+        </step>
+        <step value="3">
+            <action type="loadworld" value="任务2：创造你的作品"/>
+  
+        </step>
+    </div>   
+</div>
+
+
+<notes display="teacher">
+### 备注与教案：
+1.  探索（10分钟)：老师演示输入作品ID，请1-3位同学上台体验，其他人在下面自己体验，下面的同学可以提示台上的同学。
+
+提问1：大家知道这些游戏是用什么方块制作出来的么？（可选）
+代码方块！老师可以：下面我们来观看一个教学视频：  每日课堂：75. 小游戏教学世界CodeBlockLessons 上
+提问2：在上面的视频中， 大家记住在哪里可以看小游戏的教学视频了么？（可选）
+点击代码方块中，右上角的“教程”, 大家回家要去自学下，看看哪些游戏修改一下可以加入你的参赛作品中。
+
+2. 征程（5分钟）：《懋功会师》
+（请同学上台演示如何通关， 不会的同学可以看同学演示，会的允许做自由创造）
+3. 参赛作品自由创作（30分钟以上）
+4. 播放：准备下课的PPT
+
+</notes>
+<notes display="students">
+### 知识点：
+- 必修：循环命令：while，建桥命令build("bridge")；pioneer:turnLeft(),pioneer:turnRight()
+- 选修：代码方块总是控制和它相邻的，离它最近的那个电影方块；moveForward指令等
+</notes>
+
+
+
+
+
+## 第八课 激战腊子口
+<div class="left">
+    <step value="1">
+        作品探索《打地鼠游戏》<br/>
+        <action type="explore" projectid="536"/>
+        <action type="dailyVideo" id="76" />
+    </step>
+</div>
+
+<div class="right">
+    <div class="mainwork">
+        <step value="2">
+            <action type="button" value="任务1：代码闯关" projectid="73139"/>
+            <div class="step_str">完成“激战腊子口”</div>
+
+        </step>
+        <step value="3">
+            <action type="loadworld" value="任务2：创造你的作品"/>
+
+        </step>
+    </div>   
+</div>
+
+
+<notes display="teacher">
+### 备注与教案：
+1.  探索（10分钟)：老师演示输入作品ID，请1-3位同学上台体验，其他人在下面自己体验，下面的同学可以提示台上的同学。
+
+提问1：大家知道这些游戏是用什么方块制作出来的么？（可选）
+代码方块！老师可以：下面我们来观看一个教学视频：  每日课堂：76. 小游戏教学世界CodeBlockLessons 下
+提问2：在上面的视频中， 大家记住在哪里可以看小游戏的教学视频了么？（可选）
+点击代码方块中，右上角的“教程”, 大家回家要去自学下，看看哪些游戏修改一下可以加入你的参赛作品中。
+
+2. 征程（5分钟）：《激战腊子口》
+（请同学上台演示如何通关， 不会的同学可以看同学演示，会的允许做自由创造）
+3. 参赛作品自由创作（30分钟以上）
+4. 播放：准备下课的PPT
+
+</notes>
+<notes display="students">
+### 知识点：
+- 必修：循环命令：while，建桥命令build("air")
+- 选修：多个代码方块的同时运行、给相邻的代码方块命名、用拉杆连接不同的代码方块；turn，say，play，moveForward，registerClickEvent函数；while控制语句
+</notes>
+
+
+
+
+
+## 第九课 大会师
+<div class="left">
+    <step value="1">
+        作品探索《逃出山庄》（解谜）<br/>
+        <action type="explore" projectid="72171"/>
+        <action type="dailyVideo" id="16" />
+    </step>
+</div>
+
+<div class="right">
+    <div class="mainwork">
+        <step value="2">
+            <action type="button" value="任务1：代码闯关" projectid="73139"/>
+            <div class="step_str">完成“大会师”</div>
+
+        </step>
+        <step value="3">
+            <action type="loadworld" value="任务2：创造你的作品"/>
+ 
+        </step>
+    </div>   
+</div>
+
+
+<notes display="teacher">
+### 备注与教案：
+1.  探索（10分钟)：老师演示输入作品ID，请1位同学上台体验，其他人在下面自己体验，下面的同学可以提示台上的同学。
+
+提问1：第一关的密码是什么？（可选）
+看对面墙上的画， RDX
+
+提问2：如何防止玩家作弊（破坏场景）？（可选）
+老师可以：下面我们来观看一个教学视频：  每日课堂：16.防止作弊
+
+2. 征程（5分钟）：《大会师》
+（请同学上台演示如何通关， 不会的同学可以看同学演示，会的允许做自由创造）
+
+3. 参赛作品自由创作（30分钟以上）
+
+4. 播放：准备下课的PPT
+
+</notes>
+<notes display="students">
+### 知识点：
+- 必修：循环命令：while，建桥命令build("bridge")
+- 选修： /mode game游戏模式、防作弊密码锁代码
+</notes>
+
+
+
+
+
+## 第十课 延安
+<div class="left">
+    <step value="1">
+        作品探索《打字练习》<br/>
+        <action type="explore" projectid="867"/>
+        <action type="dailyVideo" id="135" />
+    </step>
+</div>
+
+<div class="right">
+    <div class="mainwork">
+        <step value="2">
+            <action type="button" value="任务1：代码闯关" projectid="73139"/>
+            <div class="step_str">完成“延安”</div>
+
+        </step>
+        <step value="3">
+            <action type="loadworld" value="任务2：创造你的作品"/>
+             
+        </step>
+    </div>   
+</div>
+
+<notes display="teacher">
+### 备注与教案：
+1.  探索（10分钟)：老师演示输入作品ID，请1位同学上台体验，其他人在下面自己体验，下面的同学可以提示台上的同学。
+
+提问1：如何制作属于你自己的打字练习？（可选）
+用代码方块！ 老师可以：下面我们来观看一个教学视频：  每日课堂：135. 打字练习2
+
+2. 征程（5分钟）：《延安》
+（请同学上台演示如何通关， 不会的同学可以看同学演示，会的允许做自由创造）
+
+3. 参赛作品自由创作（30分钟以上）
+
+4. 播放：准备下课的PPT
+
+</notes>
+<notes display="students">
+### 知识点：
+- 必修：基本语法，参数，moveForward()，turnLeft() ，turnRight()；while循环，build("fence")，build("bridge "),attack()
+- 选修：Ctrl+Shift+F全文搜索、多行文本的字符串用[[  ]]
+</notes>

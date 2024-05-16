@@ -1,8 +1,6 @@
 # read all *.md files in the current and all sub directories 
-# create a new txt file containing all the text from the *.md files, seperated by its filename
-# the filename is the first line of the text
-# the text is the rest of the file
-# the text is seperated by a newline
+# create a new txt file containing all the text from the *.md files
+# ./build.py [filename] to read only the specified filename
 
 import os
 import glob
@@ -17,8 +15,11 @@ from datetime import date
 ignoreFilePatternList = [
     '_config'
 ]
+# true to include filename in the output
+IsIncludeFileName = False
 # true to generate code
 IsGenCode = True
+# max number of lines in codeblock to include in the output
 maxCodeLines = 15
 # language that are allowed in codeblock ```lang
 codeblockLangs = {
@@ -46,6 +47,9 @@ def get_text(file):
         lines = text.split('\n')
         # remove empty lines or lines containing only spaces
         lines = [line for line in lines if line.strip() != '']
+
+        # remove <!-- ... --> comment
+        lines = [re.sub(r'<!--.*-->', '', line) for line in lines]
 
         # for each line check if it begins with <some_xml_tag >
         # if it does, remove all lines until the line begins with </some_xml_tag>
@@ -134,12 +138,28 @@ def write_text_to_file(text):
         print('output.txt contains ' + str(len(text)) + ' characters')
 
 def main():
-    files = get_files()
+    # get first argument from main as filename
+    files = []
+    if len(sys.argv) > 1:
+        filename = sys.argv[1]
+        if filename:
+            files = [filename]
+    else:
+        files = get_files()
     text = []
     for file in files:
-        print('reading ' + file)
-        text.append(get_filename(file))
-        text.append(get_text(file))
+        markdown = get_text(file)
+        # markdown is not empty or not empty string
+        if markdown:
+            print('reading ' + file)
+            if IsIncludeFileName:
+                text.append(get_filename(file))
+            else:
+                # add a dot line to separate file text
+                text.append('.')
+            text.append(markdown)
+        else:
+            print('warn: file ' + file + ' is empty')
     text = '\n'.join(text)
     write_text_to_file(text)
 
